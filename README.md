@@ -95,7 +95,6 @@ portfolio/
 │   ├── postcss.config.js
 │   ├── README.md
 │   ├── tailwind.config.js
-│   ├── vercel.json
 │   └── vite.config.js
 
 ```
@@ -173,10 +172,6 @@ npm run dev
 
 View the Project 🌐
 Open your browser and visit http://localhost:5173/ to see the result! 🎉
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
 ### 🤝 Contributing
@@ -189,5 +184,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Nazmul Hossain </div>
+<div align="center"> Made with ❤️ by Akhilesh Kumar Nishad </div>
 
