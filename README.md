@@ -17,14 +17,14 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo]
+![Portfolio Demo](https://i.postimg.cc/ZnkFD5WS/port.png)
 
 ---
 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+[**Live Demo**]
 ---
 ### 🎯 Project Structure
 ```bash
