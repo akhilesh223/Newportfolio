@@ -17,7 +17,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+![Portfolio Demo](https://i.postimg.cc/ZnkFD5WS/port.png)
 
 ---
 
@@ -95,7 +95,6 @@ portfolio/
 │   ├── postcss.config.js
 │   ├── README.md
 │   ├── tailwind.config.js
-│   ├── vercel.json
 │   └── vite.config.js
 
 ```
@@ -169,14 +168,6 @@ Run the Development Server 🚀
 Start the development server to see your project live:
 ```bash
 npm run dev
-```
-
-View the Project 🌐
-Open your browser and visit http://localhost:5173/ to see the result! 🎉
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
 ### 🤝 Contributing
@@ -189,5 +180,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Nazmul Hossain </div>
+<div align="center"> Made with ❤️ by Akhilesh Kumar Nishad </div>
 
