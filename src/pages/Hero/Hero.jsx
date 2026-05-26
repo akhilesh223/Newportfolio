@@ -82,11 +82,18 @@ const profile = {
         0%, 100% { opacity: 0.1; }
         50% { opacity: 0.3; }
       }
+      .animate-gridPulse {
+        animation: gridPulse 2s ease-in-out infinite;
+      }
       
       @keyframes dotPulse {
         0%, 100% { opacity: 0.2; transform: scale(0.8); }
         50% { opacity: 0.5; transform: scale(1.2); }
       }
+      .animate-dotPulse {
+        animation: dotPulse 2s ease-in-out infinite;
+      }
+
       
       /* Media query for 1366x768 resolution */
       @media screen and (width: 1366px) and (height: 768px), 

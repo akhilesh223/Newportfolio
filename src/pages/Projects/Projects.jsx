@@ -13,7 +13,6 @@ const projects = [
     color: "#5196fd",
     githubLink: "https://github.com/akhilesh223/MERN-FullStack-ShopEase",
     liveLink: "https://mern-shopease.netlify.app/",
-        liveLink: "https://mern-shopease.netlify.app/",
 
   },
   {
@@ -23,8 +22,8 @@ const projects = [
     src: "tree.jpg",
     link: "https://i.postimg.cc/ZnkFD5WS/port.png",
     color: "#8f89ff",
-    githubLink: "#",
-    liveLink: "#",
+    githubLink: "https://github.com/akhilesh223/Newportfolio",
+    liveLink: "https://akhileshnewportfolio.netlify.app/",
   },
   {
     title: "🚀Weather Forecast Application",
