@@ -9,7 +9,7 @@ const projects = [
     description:
       "A modern MERN Stack e-commerce web application built with React.js, Node.js, Express.js, and MongoDB. Features include responsive UI, product management, authentication system, shopping cart functionality, and seamless user experience.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/dtwG7Xd7/shop-Ease.png",
+    link: "https://i.postimg.cc/dtBXyNsK/shop-Ea.png",
     color: "#5196fd",
     githubLink: "https://github.com/akhilesh223/MERN-FullStack-ShopEase",
     liveLink: "https://mern-shopease.netlify.app/",

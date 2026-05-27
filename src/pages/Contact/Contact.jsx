@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Send, Phone, MapPin, Mail } from "lucide-react";
+import { Send, MapPin, Mail } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
+    phoneNumber: "",
     message: "",
   });
 
@@ -29,10 +29,14 @@ export default function Contact() {
       isValid = false;
     }
 
-    if (!formData.subject.trim()) {
-      tempErrors.subject = "Subject is required";
-      isValid = false;
-    }
+
+if (!formData.phoneNumber.trim()) {
+  tempErrors.phoneNumber = "Phone Number is required";
+  isValid = false;
+} else if (!/^[0-9]{10}$/.test(formData.phoneNumber)) {
+  tempErrors.phoneNumber = "Invalid phone number";
+  isValid = false;
+}
 
     if (!formData.message.trim()) {
       tempErrors.message = "Message is required";
@@ -56,7 +60,7 @@ export default function Contact() {
     form.append("access_key", "27b7c94c-01e9-4444-86a0-9338755d3969"); // Replace with your Web3Forms access key
     form.append("name", formData.name);
     form.append("email", formData.email);
-    form.append("subject", formData.subject || "New Contact Form Submission");
+    form.append("phoneNumber", formData.phoneNumber || "New Contact Form Submission");
     form.append("message", formData.message);
 
     try {
@@ -73,7 +77,7 @@ export default function Contact() {
         setFormData({
           name: "",
           email: "",
-          subject: "",
+          phoneNumber: "",
           message: "",
         });
         setErrors({});
@@ -112,7 +116,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">reactjs@gmail.com</p>
+                    <p className="text-gray-400">akhileshnishad287@gmail.com</p>
                   </div>
                 </div>
 
@@ -171,18 +175,18 @@ export default function Contact() {
                   <div>
                     <input
                       type="text"
-                      placeholder="Subject"
+                      placeholder="Phone Number"
                       className={`w-full px-4 py-3 rounded-lg bg-white/5 border ${
-                        errors.subject ? "border-red-500" : "border-gray-700"
+                        errors.phoneNumber ? "border-red-500" : "border-gray-700"
                       } focus:border-blue-500 focus:outline-none transition-colors`}
-                      value={formData.subject}
+                      value={formData.phoneNumber}
                       onChange={(e) =>
-                        setFormData({ ...formData, subject: e.target.value })
+                        setFormData({ ...formData, phoneNumber: e.target.value })
                       }
                     />
-                    {errors.subject && (
+                    {errors.phoneNumber && (
                       <p className="text-red-500 text-sm mt-1">
-                        {errors.subject}
+                        {errors.phoneNumber}
                       </p>
                     )}
                   </div>
